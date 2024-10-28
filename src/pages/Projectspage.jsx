@@ -128,7 +128,7 @@ const images2 =[
         </div>
 
         {/* Right Column */}
-        <div className="flex justify-center items-center mx-24 w-full max-w-[600px]">
+        <div className="flex justify-center items-center mx-24 w-full max-w-[500px]">
         <Carousel items={images} />
         </div>
       </div>
@@ -141,7 +141,7 @@ const images2 =[
         {/* Left Column */}
         <div className="flex flex-col mx-9">
           <h1 className="font-Techfont text-white text-6xl md:text-9xl">
-            acumen
+            Acumen
           </h1>
           <p className="text-[#C6CDC8] text-sm md:text-sm mt-4 max-w-[400px]">
           Introducing your digital second brain: an AI-powered app that automatically organizes and secures your files from emails, uploads, and more. Effortlessly access, search, and inquire about your documents and notes—no manual uploads needed. Simplify your digital workspace, save time, and eliminate information overload with seamless syncing across all your devices.
