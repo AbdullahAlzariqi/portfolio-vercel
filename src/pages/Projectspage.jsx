@@ -109,13 +109,13 @@ const images2 =[
         className="fixed inset-0 overflow-hidden"
       >
         <div 
-          className="transition-transform duration-500 ease-out h-full"
+          className="transition-transform duration-500 ease-out h-full w-full"
           style={{ transform: `translateY(-${(currentPage - 1) * 100}vh)` }}
         >
           {/* Page 1 */}
-          <div className="pages flex items-center h-screen w-screen">
+          <div className="pages flex items-center h-screen w-full">
       {/* Spacer or additional elements can be added here if necessary */}
-      <div className="page-1 flex flex-row items-center justify-center h-screen w-screen -mt-20">
+      <div className="page-1 flex flex-row items-center justify-center h-screen w-full  mt-20">
         {/* Left Column */}
         <div className="flex flex-col mx-9">
           <h1 className="font-Techfont text-white text-6xl md:text-9xl">
@@ -128,7 +128,7 @@ const images2 =[
         </div>
 
         {/* Right Column */}
-        <div className="flex justify-center items-center mx-24 w-full max-w-md">
+        <div className="flex justify-center items-center mx-24 w-full max-w-[600px]">
         <Carousel items={images} />
         </div>
       </div>
@@ -149,7 +149,7 @@ const images2 =[
         </div>
 
         {/* Right Column */}
-        <div className="flex justify-center items-center mx-24 w-full max-w-md">
+        <div className="flex justify-center items-center mx-24 w-full max-w-[600px]">
         <Carousel items={images2} />
         </div>
       </div>
